@@ -1,2 +1,9 @@
 # Optimal-Distribution-of-Testing-Kit-for-Covid-19
 Optimal Distribution of Testing Kit for Covid-19 using Gurobi
+### Goal
+COVID-19 hit the world in ways we can’t imagine. The CDC and other authorities had a hard time testing and supplying medicines for this virus in the United States since it is a novel virus and not much is known about it. In this project, we will use operations research to explore, consult and assist CDC in determining the optimal production plan of testing kits to minimize the total costs. Using operation research methods, we will determine an optimal cost to the CDC based on the questions and constraints they have set for us. To summarize the optimal costs based on the two different scenarios, we found the minimal total cost to be $4,775,913.75 for estimated test kits order and shipping in January’s case. For March’s case, with updates data and constraints, we found the total minimal cost to be $8,060,778 for sending out these testing kits to the various US states. On first sight, March’s constraints and data indeed look more beneficial and cheaper for the CDC, but as we explore the sensitivity of this, the answers and optimal cost might change.
+
+### Solution
+Using linear programming with the data available from CDC, we are going to formulate an equation that will determine the optimal production for manufacturing testing kits and shipping them out to various states at a minimal cost.
+
+After the formulation is done, we will use sensitivity analysis to find the amount by which we can change the input data for the output of our linear programming model to remain comparatively unchanged. This helps us in determining the sensitivity of the data we supply for the problem. Using sensitivity analysis, we will determine how much shopping cost can be increased before the current optimal solution is hampered.
